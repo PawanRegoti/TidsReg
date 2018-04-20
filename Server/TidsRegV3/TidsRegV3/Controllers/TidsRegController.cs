@@ -49,7 +49,6 @@ namespace TidsRegV3.Controllers
     }
 
     [HttpPost]
-    [BasicAuth]
     [Route("api/TidsReg/Register")]
     public HttpResponseMessage RegisterUser(HttpRequestMessage request)
     {
